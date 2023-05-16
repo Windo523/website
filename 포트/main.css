@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    border-collapse: collapse;
+    color: black;
+    list-style: none;  
+}
+.wrap{
+
+}
+
+.bg_im{
+   
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: silver;
+}
+#logo{
+    margin: 25px;
+    width: 100px;
+    height: 100px;
+    /* outline: solid 4px black; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: red;
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    float: right;
+    height: 22px;
+    background: gold;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 'Climate Crisis', cursive;
+}
+.nav > a {
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 20px;
+    background: palevioletred;
+    border: 1px solid black;
+    /* padding: 10px; */
+    text-align: center;
+}
+.nav > a:hover{
+    background: gray;
+}
+.introduce{
+    background: chartreuse;
+    text-align: center;
+    padding: 100px;
+    font-family: 'Climate Crisis', cursive;
+}
+hr{
+    margin: 10px;
+}
+h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.content{
+    background: teal;
+    text-align: center;
+}
